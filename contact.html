@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="logo.svg">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png">
+        </div>
+    </nav>
+
+    <!--Home-->
+
+    <section id="about-home">
+        <h2>Contact / </h2>
+        
+    </section>
+  
+    <section id="contact1">
+        <div class="getin">
+            <h2>Get in touch</h2>
+            <p>Looking for help? Fill the form and start a new adventure.</p>
+
+            <div class="getin-details">
+                <h3>Headquaters</h3>
+                <div>
+                    <i class="fas fa-home get"></i>
+                    <p>744, New York Ave, Brooklyn, kings, New York 10224</p>
+                </div>
+                <h3>Phone</h3>
+                <div>
+                    <i class="fas fa-phone-alt get"></i>
+                    <p>(+91) 7896543219 <br>(+91) 7896543219</p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <i class="fas fa-envelope-open-text get"></i>
+                    <p>kirti@gmail.com <br> sm@gmail.com</p>
+                </div>
+                <h3>Follow Us</h3>
+                <div class="pro-links">
+                    <a href="https://www.facebook.com/rishabh.chaubey.754" target="_blank"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/sarveshmishra3423" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/kirti-mishra-955075245" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form">
+            <h4>Let's Connect</h4>
+            <p>Feel free to Contact us!</p>
+            <div class="form-row">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+            </div>
+            <div class="form-col" >
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="8" placeholder="How can we help you?"></textarea>
+            </div>
+            <div class="form-col">
+                <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map-->
+
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230660.40315778184!2d81.66149669800669!3d25.402507544305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398534c9b20bd49f%3A0xa2237856ad4041a!2sPrayagraj%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1658894959299!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+  <!--Footer-->
+
+  <footer>
+      <div class="footer-col">
+          <h3>Top products</h3>
+          <li>Manage Reputation</li>
+          <li>Power Tool</li>
+          <li>Managed Website</li>
+          <li>Marketing Services</li>
+      </div>
+      <div class="footer-col">
+        <h3>Power Tools</h3>
+        <li>Jobs</li>
+        <li>Marketing Services</li>
+        <li>Top Products</li>
+        <li>Manage Reputation</li>
+    </div>
+    <div class="footer-col">
+        <h3>Power Tool</h3>
+        <li>Manage Website</li>
+        <li>Top Products</li>
+        <li>Manage Reputation</li>
+        <li>Marketing Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Managed Website</li>
+        <li>Marketing Services</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers,</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your Email Address">
+            <a id="subs-btn" href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright 2021 All rights reserved | This templates is made by Tech2etc</p>
+        <div class="pro-links">
+            <a href="https://www.facebook.com/rishabh.chaubey.754" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sarveshmishra3423" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kirti-mishra-955075245" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    
+  </footer>
+
+    <script src="https://kit.fontawesome.com/ae69637e80.js"></script>
+   <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>  
+
+</body>
+</html>

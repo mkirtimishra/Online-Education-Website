@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="logo.svg">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png">
+        </div>
+    </nav>
+
+    <!--Home-->
+
+    <section id="about-home">
+        <h2>Blog /</h2>
+        
+    </section>
+
+    <!--Blog container-->
+
+    <section id="blog-container">
+       <div class="blogs">
+        <div class="post">
+            <img src="images/b1.jpg">
+            <h3>Learn Full Stack Web Developement In the Easiest Ways</h3>
+            <p>Full Stack Web Developement course very popular course because it include front end as well as backend too. most of the people want to become full stack web developer now a days.</p>
+            <a href="">Read More</a>
+        </div>
+        <div class="post">
+            <img src="images/b2.jpg">
+            <h3>Learn Android Developement In the Easiest Ways</h3>
+            <p> Android developement one of most demanded course right now. AS we know life is nothing without phone, we cant think of life without phone. we can do most of thing with phone by clicking button only so android developement course best for now a days.</p>
+            <a href="">Read More</a>
+        </div>
+        <div class="post">
+            <img src="images/b3.jpg">
+            <h3>Learn Web Developement In the Easiest Ways</h3>
+            <p>Web developement is most most demanded course now a days. As we can see everything is depended upon technology so it has higher scope. It is process of designing, developing, & developing website .</p>
+            <a href="">Read More</a>
+        </div>
+        <div class="post">
+            <img src="images/b4.png">
+            <h3>Learn javascript in the easiest ways</h3>
+            <p>JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities..</p>
+            <a href="">Read More</a>
+        </div>
+        
+       </div>
+
+       <div class="cate">
+        <h2>Categories</h2>
+        <hr>
+        <a href="">Web Developement</a>
+        <hr>
+        <a href="">Web Designer</a>
+        <hr>
+        <a href="">App Developement</a>
+        <hr>
+        <a href="">Web Developement</a>
+        <hr>
+        <a href="">Frontend Web</a>
+        <hr>
+        <a href="">Python Programming</a>
+        <hr>
+        <a href="">JavaScript Hack</a>
+        <hr>
+       </div>
+    </section>
+
+    <!--Footer-->
+
+  <footer>
+      <div class="footer-col">
+          <h3>Top products</h3>
+          <li>Manage Reputation</li>
+          <li>Power Tool</li>
+          <li>Managed Website</li>
+          <li>Marketing Services</li>
+      </div>
+      <div class="footer-col">
+        <h3>Power Tools</h3>
+        <li>Jobs</li>
+        <li>Marketing Services</li>
+        <li>Top Products</li>
+        <li>Manage Reputation</li>
+    </div>
+    <div class="footer-col">
+        <h3>Power Tool</h3>
+        <li>Manage Website</li>
+        <li>Top Products</li>
+        <li>Manage Reputation</li>
+        <li>Marketing Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Managed Website</li>
+        <li>Marketing Services</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers,</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your Email Address">
+            <a id="subs-btn" href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright 2021 All rights reserved | This templates is made by Tech2etc</p>
+        <div class="pro-links">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i> 
+        </div>
+    </div>
+    
+  </footer>
+
+    <script src="https://kit.fontawesome.com/ae69637e80.js"></script>
+   <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>  
+
+</body>
+</html>
